@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.add-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 84px;
+    justify-content: space-around !important;
+}

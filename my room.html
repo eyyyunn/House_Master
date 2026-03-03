@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Room - HouseMaster</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .section-card {
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+    .card-header {
+      background-color: #1f4e79;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR (keep as is) -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#1f4e79;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HouseMaster</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">My Room</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Payment</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Announcement</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="container my-4">
+    <h3 class="text-center mb-4">My Room</h3>
+
+    <!-- Room Information -->
+    <div class="card section-card">
+      <div class="card-header">Room Information</div>
+      <div class="card-body">
+        <table class="table table-bordered">
+          <tr><th>Room Number</th><td>Dorm A - Room 1</td></tr>
+          <tr><th>Room Type</th><td>Single/Double</td></tr>
+          <tr><th>Capacity</th><td>1</td></tr>
+          <tr><th>Monthly Rent</th><td>₱1500/Month</td></tr>
+          <tr><th>Deposit</th><td>₱5000</td></tr>
+          <tr><th>Move-in Date</th><td>Dec 10, 2025</td></tr>
+          <tr><th>Duration of Stay</th><td>2 years</td></tr>
+          <tr><th>Current Status</th><td>Occupied</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- Payment Overview -->
+    <div class="card section-card">
+      <div class="card-header">Payment Overview</div>
+      <div class="card-body">
+        <p><strong>Outstanding Balance:</strong> ₱0</p>
+        <p><strong>Next Due Date:</strong> Jan 10, 2026</p>
+        <a href="#" class="btn btn-primary btn-sm">View Payment History</a>
+      </div>
+    </div>
+
+    <!-- Room Facilities -->
+    <div class="card section-card">
+      <div class="card-header">Room Facilities</div>
+      <div class="card-body">
+        <ul class="list-group">
+          <li class="list-group-item">WiFi Access: ✅ Available</li>
+          <li class="list-group-item">Air Conditioning: ❌ Not Available</li>
+          <li class="list-group-item">Furniture: Bed, Table, Chair, Cabinet</li>
+          <li class="list-group-item">Bathroom: Shared</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Maintenance Requests -->
+    <div class="card section-card">
+      <div class="card-header">Maintenance & Requests</div>
+      <div class="card-body">
+        <p><strong>Last Maintenance Check:</strong> Nov 2025</p>
+        <p><strong>Pending Requests:</strong> None</p>
+        <a href="#" class="btn btn-warning btn-sm">Report an Issue</a>
+      </div>
+    </div>
+
+    <!-- House Rules -->
+    <div class="card section-card">
+      <div class="card-header">House Rules & Reminders</div>
+      <div class="card-body">
+        <ul>
+          <li>Quiet hours: 10 PM – 6 AM</li>
+          <li>No cooking inside the room</li>
+          <li>Visitors allowed until 9 PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Lease Documents -->
+    <div class="card section-card">
+      <div class="card-header">Lease & Documents</div>
+      <div class="card-body">
+        <a href="#" class="btn btn-success btn-sm">Download Lease Contract (PDF)</a>
+        <a href="#" class="btn btn-info btn-sm">Renew Lease</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
